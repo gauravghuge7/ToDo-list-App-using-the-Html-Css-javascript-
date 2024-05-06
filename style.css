@@ -1,0 +1,97 @@
+
+    /*  body css  */
+    body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* design external wrapper */
+    .external-wrapper {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+
+    #addTaskBtn {
+        background-color: #ccc;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 2px 8px;
+
+
+    }
+
+    #addTaskBtn:hover {
+        background-color: antiquewhite;
+    }
+
+
+    /* css which apply to created by javascript tags */
+
+    .task-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .task-item input[type="text"] {
+        flex-grow: 1;
+        padding: 5px;
+        margin-right: 10px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .task-item button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        
+    }
+
+    .task-item .btn-edit {
+        background-color: #e1dcce;
+        color: #000;
+        margin-right: 5px;
+    }
+
+    .task-item .btn-edit:hover {
+        background-color: antiquewhite;
+        
+    }
+
+    .task-item .btn-delete {
+        background-color: #e36259;
+        color: #fff;
+    }
+
+    .task-item .btn-delete:hover {
+        background-color: #e33b2f;
+        color: #fff;
+    }
+
+    .task-item .btn-select {
+        background-color: #7eb0e3;
+        color: #fff;
+    }
+    .task-item .btn-select:hover {
+        background-color: #4191e1;
+        color: #fff;
+    }
+
